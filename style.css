@@ -1,3 +1,52 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: Tahoma;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+.arial {
+    font-family: Arial;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.skills {
+    margin-top: 15px;
+    width: 300px;
+}
+
+.apple {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.blue {
+    color: #26a7de;
+}
+
+.b2p {
+    opacity: 0.6;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.sales {
+    font-style: italic;
+    color: red;
+}
+
 button {
     vertical-align: top;
     margin: 20px;
