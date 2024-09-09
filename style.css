@@ -1,5 +1,6 @@
 button {
     vertical-align: top;
+    margin: 20px;
 }
 
 .uber {
@@ -116,11 +117,12 @@ button {
     color: white;
     border: none;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.05s;
 }
 
 .shadow:active {
-    margin-top: 3px;
-    margin-left: 3px;
+    margin-top: 22px;
+    margin-left: 22px;
     box-shadow: none;
 }
 
