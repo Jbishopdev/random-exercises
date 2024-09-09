@@ -98,3 +98,29 @@ button {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
+.stretch {
+    padding: 7px;
+    background-color: green;
+    color: white;
+    transition: padding 1.5s;
+    border: none;
+}
+
+.stretch:hover {
+    padding: 20px;
+}
+
+.shadow {
+    padding: 7px;
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.shadow:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
