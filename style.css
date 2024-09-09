@@ -36,6 +36,10 @@ h2 {
     color: #26a7de;
 }
 
+.back-button {
+    display: block;
+}
+
 .b2p {
     opacity: 0.6;
     font-size: 18px;
