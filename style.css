@@ -13,6 +13,10 @@ h2 {
     margin-top: 15px;
 }
 
+.orange {
+    color: orange;
+}
+
 .arial {
     font-family: Arial;
 }
@@ -30,6 +34,26 @@ h2 {
     font-family: Arial;
     text-align: center;
     margin-top: 15px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+button.apple {
+    background-color: #1465d7;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 6px 15px 6px 15px;
+}
+
+.supercharged {
+    margin-top: 5px;
+}
+
+h1.supercharged {
+    font-size: 42px;
 }
 
 .blue {
