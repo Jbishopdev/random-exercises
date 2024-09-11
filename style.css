@@ -203,3 +203,25 @@ button {
     box-shadow: none;
 }
 
+.bordered {
+    border: #26a7de solid 5px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background-color: aquamarine;
+    flex: 1, 1, 0;
+    height: 200px;
+    width: 300px;
+}
+
+.flex-container .flex-two {
+    flex-shrink: 0;
+}
+
+.flex-container .flex-two-two {
+    flex-shrink: 1.1;
+}
