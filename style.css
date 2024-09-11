@@ -204,24 +204,24 @@ button {
 }
 
 .bordered {
-    border: #26a7de solid 5px;
+    border: #26a7de solid 3px;
 }
 
 .flex-container {
+    background-color: #238636;
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
 }
 
 .flex-container div {
     background-color: aquamarine;
     flex: 1, 1, 0;
-    height: 200px;
-    width: 300px;
-}
-
-.flex-container .flex-two {
-    flex-shrink: 0;
-}
-
-.flex-container .flex-two-two {
-    flex-shrink: 1.1;
+    height: 30px;
+    width: 20px;
 }
