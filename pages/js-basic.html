@@ -7,22 +7,16 @@
 </head>
 <body>
     <script>
-        function add7(number){
-            return number + 7;
-        }
+        let add7 = (number) => number + 7;
 
-        function multiply(numberOne, numberTwo){
-            return numberOne * numberTwo;
-        }
+        let multiply = (numberOne, numberTwo) => numberOne * numberTwo;
 
-        function capitalize(string){
+        let capitalize = (string) => {
             string = string.toLowerCase();
             return string.replace(string[0], string[0].toUpperCase());
         }
 
-        function lastLetter(string){
-            return string[(string.length - 1)];
-        }
+        let lastLetter = (string) => string[(string.length - 1)];
 
     </script>
 </body>
