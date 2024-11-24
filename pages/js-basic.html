@@ -6,14 +6,24 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        function add7(number){
+            return number + 7;
+        }
 
-<script src="../script.js"></script>
-<script>
-    let a = 10;
-    console.log(a);
-    console.log(a * 9);
-    let b = 7 * a;
-    console.log(b)
-</script>
+        function multiply(numberOne, numberTwo){
+            return numberOne * numberTwo;
+        }
+
+        function capitalize(string){
+            string = string.toLowerCase();
+            return string.replace(string[0], string[0].toUpperCase());
+        }
+
+        function lastLetter(string){
+            return string[(string.length - 1)];
+        }
+
+    </script>
 </body>
 </html>
