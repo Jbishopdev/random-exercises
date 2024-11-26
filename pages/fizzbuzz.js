@@ -13,3 +13,4 @@ function fizzBuzz(number) {
       console.log(i)
   }
 }
+
