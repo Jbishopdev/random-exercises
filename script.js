@@ -6,12 +6,16 @@ const h1 = document.createElement("h1");
 const p2 = document.createElement("p");
 
 p.textContent = "Hey I'm Red!";
+h1.textContent = "I'm in a div!";
+p2.textContent = "Me too!";
 p.style.cssText = "color: red";
 h3.style.cssText = "color: blue";
 h3.textContent = "Hey I'm a blue H3!";
 div.style.backgroundColor = "pink";
 div.style.borderColor = "black";
 div.style.borderStyle = "solid";
+div.appendChild(h1);
+div.appendChild(p2);
 container.appendChild(p);
 container.appendChild(h3);
 container.appendChild(div);
