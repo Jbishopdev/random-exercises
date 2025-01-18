@@ -1,7 +1,5 @@
-let name =  "John";
-let surname = "Doe";
-
-const myArray = ["first", "second", "third", 4]
-
-
-console.log(23 + 57);
+const container = document.querySelector("#container");
+const pElement = document.createElement("p");
+pElement.textContent = "Hey I'm Red!";
+pElement.style.cssText = "color: red";
+container.appendChild(pElement);
